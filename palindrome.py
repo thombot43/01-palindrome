@@ -18,9 +18,9 @@ def is_palindrome(word):
         rev = i + rev
 
     if word == rev:
-        return("That's a palindrome")
+        return(f"'{word}' is a palindrome!!")
     else:
-        return("That's not a palindrome")
+        return(f"'{word}' is NOT a palindrome")
 
 
 while True:
